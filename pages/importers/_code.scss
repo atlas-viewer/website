@@ -1,0 +1,11 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/tomorrow-night-blue.min.css");
+
+pre code.hljs {
+  display: block;
+  background: #002451;
+  color: white;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 1em;
+}

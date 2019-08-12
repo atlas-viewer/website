@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 const $ = bem.block('header');
 
-export const Header: React.FC<{ diagram: () => any; homepage?: boolean }> = ({
+export const Header: React.FC<{ diagram?: () => any; homepage?: boolean }> = ({
   children,
   diagram,
   homepage = false,
 }) => (
-  <div className={$.modifiers({ homepage })}>
+  <div className={$.modifiers({ homepage, diagram: !!diagram })}>
     <div className={$.element('container')}>
       <div className={$.element('header')}>
         <Link href="/">
@@ -35,8 +35,8 @@ export const Header: React.FC<{ diagram: () => any; homepage?: boolean }> = ({
           </li>
         </ul>
       </div>
-      <div className={$.element('diagram')}>{diagram()}</div>
-      <div className={$.element('title')}>{children}</div>
+      {diagram ? <div className={$.element('diagram')}>{diagram()}</div> : null}
+      {children ? <div className={$.element('title')}>{children}</div> : null}
     </div>
   </div>
 );
