@@ -34,7 +34,7 @@ const IndexPage = () => {
         buttonText="View renderers"
         title="Paint your content."
         buttonLink="/renderers"
-        description="In Atlas your content occupies a space in a 2D world. Grab a builder to take your content and arrange it in a world, or do it yourself and position your content exactly where you need it."
+        description="Take your world and paint it somewhere. An HTML5 Canvas element, plain HTML or embedded on a 2D plane in a 3D world. Atlas keeps track of the positions of your content, and what’s visible."
       >
         <PaintDiagram />
       </GridBox>
