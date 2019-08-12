@@ -1,84 +1,13 @@
 import * as React from 'react';
 
 export const BuildDiagram: React.FC = () => (
-  <svg width="100%" viewBox="0 0 492 292" xmlns="http://www.w3.org/2000/svg">
+  <svg viewBox="0 0 492 292" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <filter x="-61.2%" y="-114.3%" width="222.4%" height="328.6%" filterUnits="objectBoundingBox" id="build-filter-1">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+      <filter x="-61.2%" y="-114.3%" width="222.4%" height="328.6%" id="build-a">
+        <feOffset dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
+        <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
         <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
-          in="shadowBlurOuter1"
-          result="shadowMatrixOuter1"
-        />
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter x="-61.2%" y="-114.3%" width="222.4%" height="328.6%" filterUnits="objectBoundingBox" id="build-filter-2">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-        <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
-          in="shadowBlurOuter1"
-          result="shadowMatrixOuter1"
-        />
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter x="-61.2%" y="-114.3%" width="222.4%" height="328.6%" filterUnits="objectBoundingBox" id="build-filter-3">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-        <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
-          in="shadowBlurOuter1"
-          result="shadowMatrixOuter1"
-        />
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter x="-61.2%" y="-114.3%" width="222.4%" height="328.6%" filterUnits="objectBoundingBox" id="build-filter-4">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-        <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
-          in="shadowBlurOuter1"
-          result="shadowMatrixOuter1"
-        />
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter x="-61.2%" y="-115.6%" width="222.4%" height="331.1%" filterUnits="objectBoundingBox" id="build-filter-5">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-        <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
-          in="shadowBlurOuter1"
-          result="shadowMatrixOuter1"
-        />
-        <feMerge>
-          <feMergeNode in="shadowMatrixOuter1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter x="-61.2%" y="-115.6%" width="222.4%" height="331.1%" filterUnits="objectBoundingBox" id="build-filter-6">
-        <feOffset dx="0" dy="40" in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-        <feColorMatrix
-          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
           in="shadowBlurOuter1"
           result="shadowMatrixOuter1"
         />
@@ -88,40 +17,36 @@ export const BuildDiagram: React.FC = () => (
         </feMerge>
       </filter>
     </defs>
-    <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.792550223">
-      <g transform="translate(-710.000000, -1124.000000)">
-        <g transform="translate(724.000000, 1124.000000)">
-          <g filter="url(#build-filter-1)" transform="translate(196.000000, 0.000000)">
-            <polygon fill="#3737B2" points="88 91 0 47.6225166 0 41 88 84.3774834" />
-            <polygon fill="#7171F5" points="88 91 170 49.6898955 170 43 88 84.3101045" />
-            <polygon fill="#4B4BD2" points="0 41.2475442 82.4950884 0 170 43.7524558 87.5049116 85" />
-          </g>
-          <g filter="url(#build-filter-2)" transform="translate(294.000000, 51.000000)">
-            <polygon fill="#3737B2" points="88 91 0 47.6225166 0 41 88 84.3774834" />
-            <polygon fill="#7171F5" points="88 91 170 49.6898955 170 43 88 84.3101045" />
-            <polygon fill="#4B4BD2" points="0 41.2475442 82.4950884 0 170 43.7524558 87.5049116 85" />
-          </g>
-          <g filter="url(#build-filter-3)" transform="translate(97.000000, 48.000000)">
-            <polygon fill="#3737B2" points="88 91 0 47.6225166 0 41 88 84.3774834" />
-            <polygon fill="#7171F5" points="88 91 170 49.6898955 170 43 88 84.3101045" />
-            <polygon fill="#4B4BD2" points="0 41.2475442 82.4950884 0 170 43.7524558 87.5049116 85" />
-          </g>
-          <g filter="url(#build-filter-4)" transform="translate(195.000000, 99.000000)">
-            <polygon fill="#3737B2" points="88 91 0 47.6225166 0 41 88 84.3774834" />
-            <polygon fill="#7171F5" points="88 91 170 49.6898955 170 43 88 84.3101045" />
-            <polygon fill="#4B4BD2" points="0 41.2475442 82.4950884 0 170 43.7524558 87.5049116 85" />
-          </g>
-          <g filter="url(#build-filter-5)" transform="translate(0.000000, 97.000000)">
-            <polygon fill="#3737B2" points="88 90 0 46.6225166 0 40 88 83.3774834" />
-            <polygon fill="#7171F5" points="88 90 170 49.5505226 170 43 88 83.4494774" />
-            <polygon fill="#4B4BD2" points="0 40.762279 82.4950884 0 170 43.237721 87.5049116 84" />
-          </g>
-          <g filter="url(#build-filter-6)" transform="translate(98.000000, 149.000000)">
-            <polygon fill="#3737B2" points="88 90 0 46.6225166 0 40 88 83.3774834" />
-            <polygon fill="#7171F5" points="88 90 170 49.5505226 170 43 88 83.4494774" />
-            <polygon fill="#4B4BD2" points="0 40.762279 82.4950884 0 170 43.237721 87.5049116 84" />
-          </g>
-        </g>
+    <g fill="none" fillRule="evenodd" opacity=".8">
+      <g filter="url(#build-a)" transform="translate(210)">
+        <path fill="#3737B2" d="M88 91L0 47.6V41l88 43.4z" />
+        <path fill="#7171F5" d="M88 91l82-41.3V43L88 84.3z" />
+        <path fill="#4B4BD2" d="M0 41.2L82.5 0 170 43.8 87.5 85z" />
+      </g>
+      <g filter="url(#build-a)" transform="translate(308 51)">
+        <path fill="#3737B2" d="M88 91L0 47.6V41l88 43.4z" />
+        <path fill="#7171F5" d="M88 91l82-41.3V43L88 84.3z" />
+        <path fill="#4B4BD2" d="M0 41.2L82.5 0 170 43.8 87.5 85z" />
+      </g>
+      <g filter="url(#build-a)" transform="translate(111 48)">
+        <path fill="#3737B2" d="M88 91L0 47.6V41l88 43.4z" />
+        <path fill="#7171F5" d="M88 91l82-41.3V43L88 84.3z" />
+        <path fill="#4B4BD2" d="M0 41.2L82.5 0 170 43.8 87.5 85z" />
+      </g>
+      <g filter="url(#build-a)" transform="translate(209 99)">
+        <path fill="#3737B2" d="M88 91L0 47.6V41l88 43.4z" />
+        <path fill="#7171F5" d="M88 91l82-41.3V43L88 84.3z" />
+        <path fill="#4B4BD2" d="M0 41.2L82.5 0 170 43.8 87.5 85z" />
+      </g>
+      <g filter="url(#build-a)" transform="translate(14 97)">
+        <path fill="#3737B2" d="M88 90L0 46.6V40l88 43.4z" />
+        <path fill="#7171F5" d="M88 90l82-40.4V43L88 83.4z" />
+        <path fill="#4B4BD2" d="M0 40.8L82.5 0 170 43.2 87.5 84z" />
+      </g>
+      <g filter="url(#build-a)" transform="translate(112 149)">
+        <path fill="#3737B2" d="M88 90L0 46.6V40l88 43.4z" />
+        <path fill="#7171F5" d="M88 90l82-40.4V43L88 83.4z" />
+        <path fill="#4B4BD2" d="M0 40.8L82.5 0 170 43.2 87.5 84z" />
       </g>
     </g>
   </svg>

@@ -3,6 +3,8 @@ import { Header } from '../src/components/Header/Header';
 import { CardGrid } from '../src/components/CardGrid/CardGrid';
 import { Card } from '../src/components/Card/Card';
 import { BuildDiagram } from '../src/components/BuildDiagram/BuildDiagram';
+import {Banner} from "../src/components/Banner/Banner";
+import {PaintDiagram} from "../src/components/PaintDiagram/PaintDiagram";
 
 const Builders: React.FC = () => (
   <div>
@@ -44,6 +46,9 @@ const Builders: React.FC = () => (
         properties to control the flow, direction and size of your items.
       </Card>
     </CardGrid>
+    <Banner title="Renderers" subtitle="Next section" link="/renderers">
+      <PaintDiagram />
+    </Banner>
   </div>
 );
 

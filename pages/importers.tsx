@@ -3,6 +3,8 @@ import { Header } from '../src/components/Header/Header';
 import { ImportDiagram } from '../src/components/ImportDiagram/ImportDiagram';
 import { Card } from '../src/components/Card/Card';
 import { CardGrid } from '../src/components/CardGrid/CardGrid';
+import { Banner } from '../src/components/Banner/Banner';
+import { BuildDiagram } from '../src/components/BuildDiagram/BuildDiagram';
 
 const Importers: React.FC = () => {
   return (
@@ -32,10 +34,13 @@ const Importers: React.FC = () => {
         </Card>
 
         <Card logo="/static/images/image-loader.png" status="development" title="Image loader">
-          Simple loader for importing images of various formats into the world. Supports multiple qualities for the same 
+          Simple loader for importing images of various formats into the world. Supports multiple qualities for the same
           image.
         </Card>
       </CardGrid>
+      <Banner title="Builders" subtitle="Next section" link="/builders">
+        <BuildDiagram />
+      </Banner>
     </div>
   );
 };

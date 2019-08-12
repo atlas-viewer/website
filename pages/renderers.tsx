@@ -3,6 +3,8 @@ import { Header } from '../src/components/Header/Header';
 import { Card } from '../src/components/Card/Card';
 import { CardGrid } from '../src/components/CardGrid/CardGrid';
 import { PaintDiagram } from '../src/components/PaintDiagram/PaintDiagram';
+import { Banner } from '../src/components/Banner/Banner';
+import { ControllerDiagram } from '../src/components/ControllerDiagram/ControllerDiagram';
 
 const Importers: React.FC = () => {
   return (
@@ -50,6 +52,9 @@ const Importers: React.FC = () => {
           framework.
         </Card>
       </CardGrid>
+      <Banner title="Controllers" subtitle="Next section" link="/controllers">
+        <ControllerDiagram />
+      </Banner>
     </div>
   );
 };

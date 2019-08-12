@@ -1,0 +1,33 @@
+.banner {
+  display: flex;
+  padding: 3em 0;
+  margin-bottom: 3em;
+  background-image: linear-gradient(180deg, #0C0E25 0%, #1B205E 100%);
+
+  &__inner {
+    margin: 0 auto;
+    max-width: 1150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  &__content {
+    flex: 1 1 0px;
+  }
+  &__image {
+    height: 180px;
+    width: 300px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-size: .9em;
+    font-weight: 300;
+  }
+  &__title {
+    color: #fff;
+    font-size: 2em;
+    font-weight: normal;
+  }
+}

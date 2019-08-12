@@ -3,6 +3,8 @@ import { Header } from '../src/components/Header/Header';
 import { Card } from '../src/components/Card/Card';
 import { CardGrid } from '../src/components/CardGrid/CardGrid';
 import { ControllerDiagram } from '../src/components/ControllerDiagram/ControllerDiagram';
+import {BuildDiagram} from "../src/components/BuildDiagram/BuildDiagram";
+import {Banner} from "../src/components/Banner/Banner";
 
 const Controllers: React.FC = () => {
   return (
@@ -33,6 +35,9 @@ const Controllers: React.FC = () => {
           Focused on configuration, bind custom keyboard keys to perform various Atlas actions.
         </Card>
       </CardGrid>
+      <Banner title="Roadmap" subtitle="See when this is all happening" link="/roadmap">
+        <BuildDiagram />
+      </Banner>
     </div>
   );
 };
