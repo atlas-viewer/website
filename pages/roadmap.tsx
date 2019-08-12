@@ -24,10 +24,6 @@ const RoadMap: React.FC = () => (
         A new framework in development implementing the IIIF Presentation 3 specification only, upgrading Presentation 2
         resources.
       </Card>
-      <Card hideLink={true} logo="/static/images/scroll-builder.png" status="roadMap" title="Image loader">
-        A built in loader for image services, using a method for learning the format of image services, and predicting
-        the properties of future requests, drastically reducing the number of service requests.
-      </Card>
       <Card hideLink={true} logo="/static/images/popmotion.png" status="development" title="Popmotion">
         The reference implementation of the controller specification, using Popmotion to enable a smooth pan, zoom and
         navigation for an HTML based renderer.
@@ -92,7 +88,7 @@ const RoadMap: React.FC = () => (
         Paired with the A-Frame renderer this allows a user to control Atlas from inside a 3D or VR world.
       </Card>
 
-      <Card hideLink={true} logo="/static/images/flexbox-builder.png" status="roadMap" title="Image loader">
+      <Card hideLink={true} logo="/static/images/flexbox-builder.png" status="roadMap" title="Flexbox builder">
         Powered by Facebook's{' '}
         <a href="https://yogalayout.com" target="_blank">
           Yoga library
