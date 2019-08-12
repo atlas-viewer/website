@@ -32,8 +32,8 @@ const Importers: React.FC = () => {
         </Card>
 
         <Card logo="/static/images/image-loader.png" status="development" title="Image loader">
-          A built in loader for image services, using a method for learning the format of image services, and predicting
-          the properties of future requests, drastically reducing the number of service requests.
+          Simple loader for importing images of various formats into the world. Supports multiple qualities for the same 
+          image.
         </Card>
       </CardGrid>
     </div>
