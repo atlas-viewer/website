@@ -10,7 +10,7 @@ const RoadMap: React.FC = () => (
       <h1>Roadmap</h1>
       <p>
         Atlas is a long way from being feature complete and is constantly growing. Explore the roadmap to see what's
-        coming up or jump in and contribute on Github. Below is the initial order of operations.
+        coming up or jump in and contribute on GitHub. Below is the initial order of operations.
       </p>
     </Header>
 
