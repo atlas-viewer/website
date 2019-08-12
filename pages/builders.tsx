@@ -30,12 +30,12 @@ const Builders: React.FC = () => (
         the properties of future requests, drastically reducing the number of service requests.
       </Card>
 
-      <Card logo="/static/images/scroll-builder.png" status="roadMap" title="Image loader">
+      <Card logo="/static/images/scroll-builder.png" status="roadMap" title="Scroll builder">
         A built in loader for image services, using a method for learning the format of image services, and predicting
         the properties of future requests, drastically reducing the number of service requests.
       </Card>
 
-      <Card logo="/static/images/flexbox-builder.png" status="roadMap" title="Image loader">
+      <Card logo="/static/images/flexbox-builder.png" status="roadMap" title="Flexbox builder">
         Powered by Facebook's{' '}
         <a href="https://yogalayout.com" target="_blank">
           Yoga library
