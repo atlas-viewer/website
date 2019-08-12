@@ -29,7 +29,7 @@ export const Header: React.FC<{ diagram: () => any; homepage?: boolean }> = ({
           <li className={$.element('menu-item')}>
             <Link>
               <a href="https://github.com/atlas-viewer" target="_blank">
-                Github
+                GitHub
               </a>
             </Link>
           </li>
