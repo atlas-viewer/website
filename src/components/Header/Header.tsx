@@ -24,7 +24,7 @@ export const Header: React.FC<{ diagram: () => any; homepage?: boolean }> = ({
             <Link href="/docs">Documentation</Link>
           </li>
           <li className={$.element('menu-item')}>
-            <Link href="/roadmap">Road map</Link>
+            <Link href="/roadmap">Roadmap</Link>
           </li>
           <li className={$.element('menu-item')}>
             <Link>
