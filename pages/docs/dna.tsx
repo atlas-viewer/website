@@ -46,7 +46,7 @@ const DnaPage: React.FC = () => {
           <TransformationDiagram />
           <p>
             A transformation is a simple 3x3 matrix, which is then used for the transformation. They follow the same
-            rules as matrix transformations, with the addition of multiple points.
+            rules as affine transformations, with two 3x1 matrices created from each DNA strand.
           </p>
           <ul>
             <li>

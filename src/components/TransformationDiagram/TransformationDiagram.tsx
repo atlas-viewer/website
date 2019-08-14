@@ -111,17 +111,17 @@ export const TransformationDiagram: React.FC = () => {
                 </text>
               </g>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="103" y="117" {...setActiveProps('transform[0]')}>
+                <tspan x="98" y="117" {...setActiveProps('transform[0]')}>
                   {transform[0]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="103" y="152" {...setActiveProps('transform[3]')}>
+                <tspan x="98" y="152" {...setActiveProps('transform[3]')}>
                   {transform[3]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="103" y="187" {...setActiveProps('transform[6]')}>
+                <tspan x="98" y="187" {...setActiveProps('transform[6]')}>
                   {transform[6]}
                 </tspan>
               </text>
@@ -141,17 +141,17 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="181" y="117" {...setActiveProps('transform[2]')}>
+                <tspan x="175" y="117" {...setActiveProps('transform[2]')}>
                   {transform[2]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="181" y="152" {...setActiveProps('transform[5]')}>
+                <tspan x="175" y="152" {...setActiveProps('transform[5]')}>
                   {transform[5]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="23" fontWeight="normal" fill="#000000">
-                <tspan x="181" y="187" {...setActiveProps('transform[8]')}>
+                <tspan x="175" y="187" {...setActiveProps('transform[8]')}>
                   {transform[8]}
                 </tspan>
               </text>
@@ -183,12 +183,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="306" y="132">
+                <tspan x="290" y="132">
                   *
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="384" y="132">
+                <tspan x="370" y="132">
                   *
                 </tspan>
               </text>
@@ -203,12 +203,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="317" y="129" {...setActiveProps('inputDna[1]')}>
+                <tspan x="305" y="129" {...setActiveProps('inputDna[1]')}>
                   {inputDna[1]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="395" y="129" {...setActiveProps('inputDna[2]')}>
+                <tspan x="385" y="129" {...setActiveProps('inputDna[2]')}>
                   {inputDna[2]}
                 </tspan>
               </text>
@@ -229,12 +229,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="306" y="151">
+                <tspan x="290" y="151">
                   *
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="384" y="151">
+                <tspan x="370" y="151">
                   *
                 </tspan>
               </text>
@@ -249,12 +249,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="317" y="148" {...setActiveProps('inputDna[1]')}>
+                <tspan x="305" y="148" {...setActiveProps('inputDna[1]')}>
                   {inputDna[1]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="395" y="148" {...setActiveProps('inputDna[2]')}>
+                <tspan x="385" y="148" {...setActiveProps('inputDna[2]')}>
                   {inputDna[2]}
                 </tspan>
               </text>
@@ -275,12 +275,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="306" y="170">
+                <tspan x="290" y="170">
                   *
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="384" y="170">
+                <tspan x="370" y="170">
                   *
                 </tspan>
               </text>
@@ -295,12 +295,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="317" y="167" {...setActiveProps('inputDna[3]')}>
+                <tspan x="305" y="167" {...setActiveProps('inputDna[3]')}>
                   {inputDna[3]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="395" y="167" {...setActiveProps('inputDna[4]')}>
+                <tspan x="385" y="167" {...setActiveProps('inputDna[4]')}>
                   {inputDna[4]}
                 </tspan>
               </text>
@@ -321,12 +321,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="306" y="189">
+                <tspan x="290" y="189">
                   *
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#676767">
-                <tspan x="384" y="189">
+                <tspan x="370" y="189">
                   *
                 </tspan>
               </text>
@@ -341,12 +341,12 @@ export const TransformationDiagram: React.FC = () => {
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="317" y="186" {...setActiveProps('inputDna[3]')}>
+                <tspan x="305" y="186" {...setActiveProps('inputDna[3]')}>
                   {inputDna[3]}
                 </tspan>
               </text>
               <text fontFamily="Monaco" fontSize="12" fill="#000000">
-                <tspan x="395" y="186" {...setActiveProps('inputDna[4]')}>
+                <tspan x="385" y="186" {...setActiveProps('inputDna[4]')}>
                   {inputDna[4]}
                 </tspan>
               </text>
