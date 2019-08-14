@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Header } from '../../src/components/Header/Header';
 import { Container } from '../../src/components/Container/Container';
 import { DnaDiagram } from '../../src/components/DnaDiagram/DnaDiagram';
+import { TransformationDiagram } from '../../src/components/TransformationDiagram/TransformationDiagram';
 
 const DnaPage: React.FC = () => {
   return (
@@ -30,8 +31,8 @@ const DnaPage: React.FC = () => {
           <h3>Multiple sets of 5 numbers</h3>
           <p>
             Each strand of DNA describes an area in 2D space, either a single box (5 elements) or in a tiled grid of 2d
-            boxes, or "5 x width x height" elements. It is also possible to represent points, with the 2nd and 4th elements being
-            equal and the 3rd and 5th elements being equal.
+            boxes, or "5 x width x height" elements. It is also possible to represent points, with the 2nd and 4th
+            elements being equal and the 3rd and 5th elements being equal.
           </p>
         </section>
         <section>
@@ -42,6 +43,7 @@ const DnaPage: React.FC = () => {
             2D space. These roughly follow 2d matrix transformations, with the exception that there is 2 points
             associated with each item, and the first float is ignored.
           </p>
+          <TransformationDiagram />
           <p>
             A transformation is a simple 3x3 matrix, which is then used for the transformation. They follow the same
             rules as matrix transformations, with the addition of multiple points.
