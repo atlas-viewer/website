@@ -11,14 +11,14 @@ const messages: { [key in StatusKey]: string } = {
   development: 'This feature is in development',
   production: 'This feature is complete',
   roadMap: 'This feature is on the road map',
-  documentation: 'Documentation is still a work in progress.',
+  documentation: '',
 };
 
 const buttonLabels: { [key in StatusKey]: string | null } = {
   development: 'View repository',
   production: 'View documentation',
   roadMap: 'View road map',
-  documentation: null,
+  documentation: 'View documentation',
 };
 
 export const Card: React.FC<{

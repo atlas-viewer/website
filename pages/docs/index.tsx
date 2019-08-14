@@ -11,8 +11,12 @@ const Documentation: React.FC = () => (
       <p>Learn how to compose Atlas components and bring a deep zoom viewing experience to your own application.</p>
     </Header>
     <CardGrid>
-      <Card logo="/static/images/grid-builder.png" title="Getting started" status="documentation">
-        Get Atlas installed and create a simple view and introduce the concepts required for the rest of the library.
+      <Card logo="/static/images/minimap-builder.png" buttonLink="/docs/internals" title="Atlas internals" status="documentation">
+        Dive into the details of how the Atlas runtime works.
+      </Card>
+
+      <Card logo="/static/images/image-service.png" buttonLink="/docs/dna" title="DNA" status="documentation">
+        See how the performant DNA works in Atlas.
       </Card>
     </CardGrid>
   </div>

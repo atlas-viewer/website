@@ -4,7 +4,9 @@ import { Container } from '../../src/components/Container/Container';
 import { Highlight } from 'react-fast-highlight';
 import './_code.scss';
 
-const installCode = `yarn add @atlas-viewer/image-loader`;
+const installCode = `
+  yarn add @atlas-viewer/image-loader
+`;
 
 const usage = `
 import { ImageLoader } from '@atlas-viewer/image-loader';
