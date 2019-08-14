@@ -401,6 +401,7 @@ export const TransformationDiagram: React.FC = () => {
         <ul style={{ fontFamily: 'Monaco' }}>
           {transforms.map((single, idx) => (
             <li
+              key={idx}
               style={{ color: idx === transformIdx ? '#FF007A' : '#000', cursor: 'pointer' }}
               onClick={() => setTransform(idx)}
             >
@@ -408,7 +409,17 @@ export const TransformationDiagram: React.FC = () => {
             </li>
           ))}
         </ul>
-        <div style={{ position: 'relative', width: 100, height: 100, border: '1px solid #000', background: '#fff', margin: 5, marginLeft: 40 }}>
+        <div
+          style={{
+            position: 'relative',
+            width: 100,
+            height: 100,
+            border: '1px solid #000',
+            background: '#fff',
+            margin: 5,
+            marginLeft: 40,
+          }}
+        >
           <div
             style={{
               position: 'absolute',
