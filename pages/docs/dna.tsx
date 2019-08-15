@@ -20,7 +20,7 @@ const DnaPage: React.FC = () => {
           <h2>What is "DNA"?</h2>
           <p>
             DNA is a strand of 32-bit floating point numbers. The values associated in each strand repeat every 5 units,
-            so the length of any stand is a multiple of 5. Below is an interactive diagram explaining what each value
+            so the length of any strand is a multiple of 5. Below is an interactive diagram explaining what each value
             represents and how it describes a rectangular region in 2D space.
           </p>
           <DnaDiagram />
