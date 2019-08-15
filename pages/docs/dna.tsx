@@ -12,7 +12,7 @@ const DnaPage: React.FC = () => {
         <h1>DNA + Performant positioning</h1>
         <p>
           Atlas uses JavaScript Array buffers in order to get the highest performance possible. Array buffers are used
-          to store values that change often, such as the viewport position, to caching for temporary variables during
+          to store values that change often, such as the viewport position or to cache temporary variables during
           the hot path, reducing the amount of memory garbage collected each frame.
         </p>
 
